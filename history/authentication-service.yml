@@ -1,7 +1,7 @@
 url: $SECRET_AUTH_SERVICES
-status: down
+status: up
 code: 403
-responseTime: 52
-lastUpdated: 2024-09-14T16:44:41.624Z
+responseTime: 60
+lastUpdated: 2024-09-14T16:55:51.752Z
 startTime: 2024-09-14T16:44:41.542Z
 generator: Upptime <https://github.com/upptime/upptime>
