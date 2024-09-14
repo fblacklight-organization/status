@@ -1,6 +1,7 @@
 # Change these first
 owner: fblacklight-organization # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
+user-agent: fblacklight-organization
 
 sites:
   - name: Landing Page
@@ -83,7 +84,7 @@ status-website:
   cname: status.fblacklight.org
   # baseUrl: /status
   logoUrl: https://www.fblacklight.org/_next/static/media/fbl_logo.45aa8364.svg
-  name: Furry Blacklight Statuspage
+  name: Statuspage
   #introTitle: "We try to ensure that all our services are available 24/7"
   introMessage: "We try to ensure that all our services are available 24/7, if you encounter any issues even though the service is marked as live, please consider open a ticket in our Ticket System"
   navbar:
