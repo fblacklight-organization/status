@@ -5,30 +5,40 @@ repo: status # The name of this repository
 sites:
   - name: Landing Page
     url: https://www.fblacklight.org/en
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
     - 403
     
   - name: Registration
     url: https://registration.fblacklight.org
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
     - 403
     
   - name: Apps Hub
     url: https://apps.fblacklight.org
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
     - 403
     
   - name: Companion App
     url: https://companion.fblacklight.org
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
     - 403
     
   - name: Authentication Service
     url: $SECRET_AUTH_SERVICES
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
       - 200
       - 403
@@ -36,24 +46,32 @@ sites:
       
   - name: Riddle Services
     url: $SECRET_RIDDLES_API
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
     - 403
     
   - name: Virtual Queues
     url: $SECRET_VQ_SERVICE
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
     - 403
     
   - name: Data Services
     url: $SECRET_DATA_SERVICES
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
     - 403
     
   - name: Service Monitoring
     url: $SECRET_MONITORING_SERVICE
+    headers:
+      - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
     - 403
@@ -64,7 +82,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.fblacklight.org
   # baseUrl: /status
-  # logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://www.fblacklight.org/_next/static/media/fbl_logo.45aa8364.svg
   name: Furry Blacklight Statuspage
   #introTitle: "We try to ensure that all our services are available 24/7"
   introMessage: "We try to ensure that all our services are available 24/7, if you encounter any issues even though the service is marked as live, please consider open a ticket in our Ticket System"
