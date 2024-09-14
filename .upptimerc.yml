@@ -5,25 +5,58 @@ repo: status # The name of this repository
 sites:
   - name: Landing Page
     url: https://www.fblacklight.org/en
+    expectedStatusCodes:
+    - 200
+    - 403
+    
   - name: Registration
     url: https://registration.fblacklight.org
+    expectedStatusCodes:
+    - 200
+    - 403
+    
   - name: Apps Hub
     url: https://apps.fblacklight.org
+    expectedStatusCodes:
+    - 200
+    - 403
+    
   - name: Companion App
     url: https://companion.fblacklight.org
+    expectedStatusCodes:
+    - 200
+    - 403
+    
   - name: Authentication Service
     url: $SECRET_AUTH_SERVICES
     expectedStatusCodes:
       - 200
+      - 403
       - 404
+      
   - name: Riddle Services
     url: $SECRET_RIDDLES_API
+    expectedStatusCodes:
+    - 200
+    - 403
+    
   - name: Virtual Queues
     url: $SECRET_VQ_SERVICE
+    expectedStatusCodes:
+    - 200
+    - 403
+    
   - name: Data Services
     url: $SECRET_DATA_SERVICES
+    expectedStatusCodes:
+    - 200
+    - 403
+    
   - name: Service Monitoring
     url: $SECRET_MONITORING_SERVICE
+    expectedStatusCodes:
+    - 200
+    - 403
 
 
 status-website:
