@@ -1,7 +1,7 @@
 url: $SECRET_RIDDLES_API
-status: down
-code: 404
-responseTime: 455
-lastUpdated: 2024-09-19T19:13:08.999Z
+status: up
+code: 200
+responseTime: 571
+lastUpdated: 2024-09-19T19:21:13.207Z
 startTime: 2024-09-14T16:44:41.976Z
 generator: Upptime <https://github.com/upptime/upptime>
