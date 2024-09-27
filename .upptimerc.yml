@@ -59,6 +59,7 @@ sites:
       - "User-Agent: fblacklight uptime"
     expectedStatusCodes:
     - 200
+    - 405 # Since we're asking a websocket and this is the response at root
     - 403
     
   - name: Data Services
