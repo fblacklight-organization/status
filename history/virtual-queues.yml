@@ -1,7 +1,7 @@
 url: $SECRET_VQ_SERVICE
-status: down
-code: 404
-responseTime: 501
-lastUpdated: 2024-10-06T18:07:18.830Z
+status: up
+code: 405
+responseTime: 544
+lastUpdated: 2024-10-06T18:18:50.589Z
 startTime: 2024-09-14T16:44:42.551Z
 generator: Upptime <https://github.com/upptime/upptime>
