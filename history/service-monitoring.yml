@@ -1,7 +1,7 @@
 url: $SECRET_MONITORING_SERVICE
 status: down
 code: 526
-responseTime: 372
-lastUpdated: 2025-02-02T23:06:27.684Z
+responseTime: 279
+lastUpdated: 2025-02-03T23:06:20.289Z
 startTime: 2024-09-14T16:44:46.151Z
 generator: Upptime <https://github.com/upptime/upptime>
