@@ -1,7 +1,7 @@
 url: https://www.fblacklight.org/en
-status: up
-code: 200
-responseTime: 758
-lastUpdated: 2025-02-05T15:44:59.896Z
+status: down
+code: 500
+responseTime: 720
+lastUpdated: 2025-02-05T16:08:21.103Z
 startTime: 2024-09-14T16:44:39.672Z
 generator: Upptime <https://github.com/upptime/upptime>
