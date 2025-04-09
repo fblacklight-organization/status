@@ -1,7 +1,7 @@
 url: https://registration.fblacklight.org
-status: up
-code: 200
-responseTime: 465
-lastUpdated: 2025-04-09T18:52:48.683Z
+status: down
+code: 401
+responseTime: 510
+lastUpdated: 2025-04-09T19:34:27.186Z
 startTime: 2024-09-14T16:44:40.152Z
 generator: Upptime <https://github.com/upptime/upptime>
