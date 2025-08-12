@@ -70,13 +70,6 @@ sites:
     - 200
     - 403
     
-  - name: Service Monitoring
-    url: $SECRET_MONITORING_SERVICE
-    headers:
-      - "User-Agent: fblacklight uptime"
-    expectedStatusCodes:
-    - 200
-    - 403
 
 
 status-website:
