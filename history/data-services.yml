@@ -1,7 +1,7 @@
 url: $SECRET_DATA_SERVICES
-status: down
-code: 500
-responseTime: 210
-lastUpdated: 2025-11-18T15:09:17.382Z
+status: up
+code: 200
+responseTime: 723
+lastUpdated: 2025-11-18T15:21:47.997Z
 startTime: 2024-09-14T16:44:44.349Z
 generator: Upptime <https://github.com/upptime/upptime>
